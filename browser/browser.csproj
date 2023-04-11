@@ -78,19 +78,15 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="browser, Version=1.0.0.0, Culture=neutral, processorArchitecture=AMD64">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>File\browser.exe</HintPath>
-    </Reference>
     <Reference Include="CefSharp, Version=111.2.70.0, Culture=neutral, PublicKeyToken=40c4b6fc221f4138, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>File\CefSharp.dll</HintPath>
     </Reference>
-    <Reference Include="CefSharp.BrowserSubprocess, Version=111.2.70.0, Culture=neutral, PublicKeyToken=40c4b6fc221f4138, processorArchitecture=AMD64">
+    <Reference Include="CefSharp.BrowserSubprocess, Version=111.2.70.0, Culture=neutral, PublicKeyToken=40c4b6fc221f4138, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>File\CefSharp.BrowserSubprocess.exe</HintPath>
     </Reference>
-    <Reference Include="CefSharp.BrowserSubprocess.Core, Version=111.2.70.0, Culture=neutral, PublicKeyToken=40c4b6fc221f4138, processorArchitecture=AMD64">
+    <Reference Include="CefSharp.BrowserSubprocess.Core, Version=111.2.70.0, Culture=neutral, PublicKeyToken=40c4b6fc221f4138, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>File\CefSharp.BrowserSubprocess.Core.dll</HintPath>
     </Reference>
@@ -98,7 +94,7 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>File\CefSharp.Core.dll</HintPath>
     </Reference>
-    <Reference Include="CefSharp.Core.Runtime, Version=111.2.70.0, Culture=neutral, PublicKeyToken=40c4b6fc221f4138, processorArchitecture=AMD64">
+    <Reference Include="CefSharp.Core.Runtime, Version=111.2.70.0, Culture=neutral, PublicKeyToken=40c4b6fc221f4138, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>File\CefSharp.Core.Runtime.dll</HintPath>
     </Reference>
@@ -106,15 +102,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>File\CefSharp.WinForms.dll</HintPath>
     </Reference>
-    <Reference Include="CefSharp.Wpf, Version=111.2.70.0, Culture=neutral, PublicKeyToken=40c4b6fc221f4138, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>File\CefSharp.Wpf.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
